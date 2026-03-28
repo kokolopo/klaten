@@ -95,7 +95,7 @@ async def run_agent_ui(save_to_db: bool):
 
 def create_ui():
     """Build the Gradio blocks UI."""
-    with gr.Blocks(title="PAD Data Scraper", theme=gr.themes.Soft()) as app:
+    with gr.Blocks(title="PAD Data Scraper") as app:
         gr.Markdown("# 🤖 AI Agent - PAD Data Scraper")
         gr.Markdown(
             "Agent AI ini menggunakan browser *headless* untuk membaca tabel web "
@@ -147,4 +147,4 @@ def create_ui():
 app = create_ui()
 
 if __name__ == "__main__":
-    app.launch(server_name="127.0.0.1", server_port=7860)
+    app.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Soft())
