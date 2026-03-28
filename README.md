@@ -29,11 +29,17 @@ cp .env.example .env
 ```
 
 ### 3. Run
+dengan UI (recommended):
+```bash
+python app.py
+```
+
+dengan default message:
 ```bash
 python main.py
 ```
 
-Atau dengan custom message:
+dengan custom message:
 ```bash
 python main.py "Ambil data PAD tahun 2026 dari https://dashboard.etax-klaten.id/monitoring_realisasi"
 ```
