@@ -25,7 +25,7 @@ playwright install chromium
 ### 2. Configure API key
 ```bash
 cp .env.example .env
-# Edit .env dan masukkan GOOGLE_API_KEY
+# Edit .env dan masukkan OPENROUTER_API_KEY & DATABASE_URL
 ```
 
 ### 3. Run
