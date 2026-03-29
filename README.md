@@ -72,6 +72,7 @@ Agent akan mengembalikan JSON seperti:
 
 - **Python 3.11+**
 - **LangGraph** — Stateful agent graph
-- **LangChain Google GenAI** — Gemini LLM
 - **Playwright** — Headless browser automation
 - **Pydantic** — Data validation & serialization
+- **Gradio** — UI
+
