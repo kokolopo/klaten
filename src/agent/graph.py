@@ -27,7 +27,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 
 def build_graph(
-    model_name: str = "google/gemini-2.0-flash-001",
+    model_name: str = "anthropic/claude-haiku-4.5",
     temperature: float = 0,
 ) -> StateGraph:
     """Build and compile the LangGraph agent graph.
